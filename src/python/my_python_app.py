@@ -17,7 +17,7 @@ def main():
     # MongoDB Connection
     mongo_client = MongoClient(MONGODB_URL)
     db = mongo_client[DATABASE]
-    patients_collection = db[COLLECTION]
+    query_collection = db[COLLECTION]
 
     # Define the query
     # Comment/uncomment one of the following query variables to either enable a filter or return all
@@ -28,7 +28,7 @@ def main():
 
     projection = {'_id': 0, 'title' : 1, 'cast' : 1}
 
-    for doc in patients_collection.find(query, projection):
+    for doc in query_collection.find(query, projection):
         print(doc)
 
 

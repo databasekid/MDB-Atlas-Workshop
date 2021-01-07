@@ -1,7 +1,7 @@
 # MongoDB-Atlas-Workshop
 This repository contains a guide on getting started with MongoDB.  Specifically, this is
-a step-by-step tutorial/workshop incorporating the use of [MongoDB Atlas](https://www.mongodb.com/cloud/atlas),
-[MongoDB Compass](https://www.mongodb.com/products/compass), [MongoDB Stitch](https://www.mongodb.com/cloud/stitch), 
+a step-by-step tutorial/workshop incorporating the use of [MongoDB Atlas](https://www.mongodb.com/try),
+[MongoDB Compass](https://www.mongodb.com/try/download/compass), 
 and [MongoDB Charts](https://www.mongodb.com/products/charts).  
 The data that will be utilized in this workshop
 will be one of the sample data sets that can be loaded into MongoDB Atlas via the
@@ -15,9 +15,7 @@ This hands-on workshop is designed to get you familiar with all general aspects 
 MongoDB and MongoDB Atlas.  However, the general focus will be on utilizing the capabilities
 of MongoDB Atlas.  The exercises will include basic query capabilities, introduction
 to the aggregation framework, query optimization, and schema validation through the
-use of MongoDB Compass.  The exercises will then transition into building applications
-using MongoDB Stitch through the use of [Stitch Functions](https://docs.mongodb.com/stitch/functions/) 
-and [Stitch Triggers](https://docs.mongodb.com/stitch/triggers/).  Finally, the workshop
+use of MongoDB Compass.  Finally, the workshop
 will conclude with a set of exercises to introduce the user to MongoDB Charts.
 
 ### Required Prerequisites
@@ -29,7 +27,7 @@ to MongoDB Atlas services which will be running on port 27017.  Please confirm t
 * Complete [Getting Started with MongoDB Atlas](https://docs.atlas.mongodb.com/getting-started/). This involves creating an Atlas account, creating your first
 free tier cluster, and setting up the appropriate security credentials
 
-* Load Sample data into your cluster by following the [Insert Data into Your Cluster](https://docs.atlas.mongodb.com/getting-started/#insert-data-into-your-cluster)
+* Load Sample data into your cluster by following the [Insert Data into Your Cluster](https://docs.atlas.mongodb.com/tutorial/insert-data-into-your-cluster)
 section of the Getting Started Guide.
 
 * Download/Install [MongoDB Compass](https://www.mongodb.com/products/compass).
@@ -40,10 +38,7 @@ tool that is part of the MongoDB Atlas User Interface.
 
 #### Important Note:
 As you walk through the exercises, you will have the option of interfacing with the data
-that is stored in MongoDB Atlas through a number of tools.  Several of the MongoDB Stitch
-exercises will be utilizing a microservices style architecture by making calls via
-a REST API.  For these examples you can use [curl](https://curl.haxx.se/download.html) or
-[Postman](https://www.getpostman.com/).
+that is stored in MongoDB Atlas through a number of tools. 
 
 ---
 ### Outline of Workshop:
@@ -52,19 +47,10 @@ a REST API.  For these examples you can use [curl](https://curl.haxx.se/download
     * Evaluate query performance and indexes
     * Aggregation Framework
     
-2. Part 1 - MongoDB Stitch (Microservices)
-    * GET/POST operations via webhooks
-    * Triggers
-    
-3. Part 2 - MongoDB Stitch (Control Data Access via Rules)
-    * MongoDB Rules
-    * Query Anywhere
-    * Stitch Hosting
-    
-4. MongoDB Charts
+2. MongoDB Charts
     * General Charts Demonstration
     
-5. Code Samples
+3. Code Samples
     * Variety of code examples in Python, Node.js, and C#
     
    
@@ -331,31 +317,6 @@ Your final pipeline will be the following:
 You can choose to save this pipeline if you would like to open it later.
 
 ---
-### MongoDB Stitch Labs
-#### Lab 1 - Microservices with MongoDB Stitch
-For the next series of exercises, continue to use the same cluster you
-have just created.  You will be creating your first Stitch Application that
-will be using the same database and collection for the previous labs.
-
-For the complete set of steps, please reference the Github repository
-for [Stitch Microservices](https://github.com/blainemincey/stitch-microservices-mdbw2019). 
-
-#### Lab 2 - Controlling Access to Data using Rules with MongoDB Stitch
-For the next series of exercises, continue to use the same cluster you
-have just created.  You will be "adding on" to the Stitch Application that
-you have created in the prior lab for microservices.
-
-For the complete set of steps, please reference the Github repository
-for [Stitch Rules and Stitch Query Anywhere](https://github.com/blainemincey/stitch-rules-mdbw2019).
-
-#### Lab 3 - Stitch Hosting
-Stitch Hosting allows you to host, manage, and serve your application’s static media 
-and document files. You can use Hosting to store individual pieces of content 
-or to upload and serve your entire client application.
-
-Follow the MongoDB Stitch documentation for [Hosting](https://docs.mongodb.com/stitch/hosting/).
-
----
 ### MongoDB Charts
 MongoDB Charts is the best way to create visualizations of MongoDB data. 
 Connect to any MongoDB instance as a data source, create charts and graphs, 
@@ -467,9 +428,6 @@ Your chart prior to saving, should look like that below:
 
 ![](img/charts11.jpg)  
 
-#### Lab 3 - Embedding MongoDB Charts
-If you would like to embed your chart within in existing webpage, that is also
-possible with MongoDB Charts.  Follow the guide to [Embed Charts in Your Web Application](https://docs.mongodb.com/charts/master/embedding-charts/).
 
 ---
 ### Code Samples

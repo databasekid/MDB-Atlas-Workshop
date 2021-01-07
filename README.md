@@ -436,20 +436,18 @@ everything from C to Go to Java, etc.  The complete list of MongoDB Drivers is a
 on the [MongoDB Drivers and ODM](https://docs.mongodb.com/ecosystem/drivers/) page.
 
 A few examples are provided within this repository to assist you in getting a jump start
-on developing with MongoDB Atlas.  There is an example for Python, Node.js, and C#.
+on developing with MongoDB Atlas.  There is an example for Python and Node.js.
 
 In fact, feel free to use some of the earlier queries we used in the MongoDB Compass
 labs earlier.  MongoDB Compass provides the capability to export queries in a variety
 of languages so you can easily copy/paste into your source code.
 
 #### Python
-[Python3 Sample](https://github.com/blainemincey/mdb-atlas-workshop-july2019/blob/master/src/python/my_python_app.py)
+[Python3 Sample](https://github.com/databasekid/MDB-Atlas-Workshop/blob/master/src/python/my_python_app.py)
 
 #### Node.js
-[Node.js Sample](https://github.com/blainemincey/mdb-atlas-workshop-july2019/blob/master/src/node/myNodeApp.js)
+[Node.js Sample](https://github.com/databasekid/MDB-Atlas-Workshop/blob/master/src/node/myNodeApp.js)
 
-#### C#
-[C# Sample](https://github.com/blainemincey/mdb-atlas-workshop-july2019/blob/master/src/csharp/MyMongoDBApp/Program.cs)
 
 
 

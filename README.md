@@ -1,4 +1,4 @@
-# mdb-atlas-workshop-july2019
+# MongoDB-Atlas-Workshop
 This repository contains a guide on getting started with MongoDB.  Specifically, this is
 a step-by-step tutorial/workshop incorporating the use of [MongoDB Atlas](https://www.mongodb.com/cloud/atlas),
 [MongoDB Compass](https://www.mongodb.com/products/compass), [MongoDB Stitch](https://www.mongodb.com/cloud/stitch), 
